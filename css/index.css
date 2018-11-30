@@ -1,0 +1,108 @@
+
+
+.content{
+    min-height: 600px;
+    
+}
+
+#banner_image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background:url(../img/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 800px;
+}
+
+.banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+#buttn_style{
+    margin-top: 30%;
+}
+
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+#login_panel{
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+
+p{
+    margin-left: 2%;
+}
+
+.heading_signup{
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: 170%;
+}
+
+#sign-up_panel{
+    margin-top: 9%;
+    margin-bottom: 10%;
+}
+
+.cart_table{
+    margin-top: 9%;
+}
+
+.product_space{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*.img-class{
+    max-height:4666px ;
+    max-width: 2990px;
+}*/
+
+/*.thumbnail_size{
+    height: 50%;
+    width: 50%;
+}
+.thumbnail{
+    height:200px;
+    width:100%;    
+}*/
+
+
+.thumbnail img {
+    height:200px;
+    width:100%;
+}
+
+
+
+#cameras:before, #watches:before, #shirts:before{
+    display: block; 
+    content: " "; 
+    margin-top: -85px; 
+    height: 85px; 
+    visibility: hidden;
+}
+
+.cart_padding{
+    margin-top: 7%;
+}
+
+
